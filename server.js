@@ -17,8 +17,10 @@ client.on("ready", async () => {
 
 client.user.setActivity(`Nordd Radio 24/7`, {
   type: "STREAMING",
-  url: ""
-}
+  url: "https://www.youtube.com/embed/hr5tJ2fQFew"})
+  .then(presence => console.log(`Your status has been set to ${presence.game ? presence.game.none : 'none'}`))
+  .catch(console.error);
+});
   
 client.on('guildCreate', guild => {
   guild.systemChannel.send(`Hello, I'm Nordd bot. Thanks for inviting me, I hope you enjoy:)`)
