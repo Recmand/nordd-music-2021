@@ -7,8 +7,8 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@discordjs/opus": "^0.3.2",
-    "discord.js": "^12.5.0",
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.1",
     "simple-youtube-api": "^5.2.1",
     "ytdl-core": "^4.2.1",
     "ytdl-core-discord": "^1.2.4",
