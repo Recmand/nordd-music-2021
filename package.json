@@ -7,11 +7,11 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "@discordjs/opus": "^0.3.3",
-    "discord.js": "^12.5.1",
+    "@discordjs/opus": "^0.5.3",
+    "discord.js": "^12.5.3",
     "simple-youtube-api": "^5.2.1",
-    "ytdl-core": "^4.2.1",
-    "ytdl-core-discord": "^1.2.4",
+    "ytdl-core": "^4.8.2",
+    "ytdl-core-discord": "^1.3.1",
     "bufferutil": "^4.0.2",
     "erlpack": "^0.1.3",
     "utf-8-validate": "^5.0.2",
@@ -29,7 +29,7 @@
     "fs": "^0.0.2",
     "bindings": "^1.5.0",
     "pretty-ms": "^7.0.1",
-    "discord-ytdl-core": "^5.0.0",
+    "discord-ytdl-core": "^5.0.4",
     "lyrics-finder": "^21.4.0",
     "string-progressbar": "^1.0.1",
     "novelcovid": "^1.2.6"
